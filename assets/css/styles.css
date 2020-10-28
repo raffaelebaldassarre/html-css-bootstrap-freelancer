@@ -6,13 +6,16 @@ body {
   .bg_grey{
     background-color: #2C3F51;
   }
-  .text-center{
+  .text_center{
     text-align:center;
   }
-  .text-left{
+  .text_left{
     text-align: left;
   }
-  .white-text{
+  .text_uppercase{
+    text-transform: uppercase;
+  }
+  .white_text{
     color: white;
   }
   /* /UTILITY */
