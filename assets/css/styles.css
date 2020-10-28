@@ -1,68 +1,144 @@
 body {
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
   /* UTILITY */
   .bg_grey{
     background-color: #2C3F51;
   }
-  .text_center{
-    text-align:center;
+  .bg_dark{
+    background-color: #1A252F;
   }
-  .text_left{
-    text-align: left;
+  .bg-white {
+    background-color: white;
   }
-  .text_uppercase{
-    text-transform: uppercase;
+  .bg-black{
+    background-color: black;
   }
-  .white_text{
+  .mb-30 {
+    margin-bottom: 30px;
+  }
+  .jumbotron h1, .jumbotron p, #about h1, #about p, footer h2, footer p{
     color: white;
   }
-  /* /UTILITY */
 
-nav{
+h1 {
+  text-transform: uppercase;
+  font-weight: bolder !important;
+}
+h2 {
+  text-transform: uppercase;
+  font-weight: bolder !important;
+}
+  /* /UTILITY */
+nav a {
+  padding: 0 !important;
+}
+.navbar{
   height: 100px;
-  line-height: 100px;
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
 }
-.header_logo a{
-  text-transform: uppercase;
-  font-size: 3.2rem;
+.navbar a {
   color: white;
-  margin-top: 3rem;
-  text-decoration: none;
 }
-.list_inline li{
-  list-style: none;
-  display: inline-block;
-}
-.list_inline li a{
-  text-decoration: none;
-  color: white;
-  padding: 2rem;
-  font-size: 1.8rem;
-  text-transform: uppercase;
-}
-.jumbotroon{
+.navbar-toggle {
+  margin-top: -8px;
   background-color: #19BC9C;
-  height: 660px;
+  border: 1px solid white;
+}
+.navbar-toggle span {
+  outline: 1px solid white!important;
+}
+.navbar-brand{
+  font-size: 1.75em !important;
+  font-weight: bolder;
+}
+.navbar-right a{
+  font-size: 1em;
+  font-weight: bolder !important;
+  padding: 0 20px !important;
+}
+.navbar-header {
+  padding-top: calc((100px - 1.75em)/2)
+}
+.navbar-right{
+  padding-top: calc((100px - 1em)/2) ;
+}
+.jumbotron{
+  background-color: #19BC9C;
   padding-top: 100px;
 }
-.jumbotroon img{
+.jumbotron img{
   width: 250px;
 }
+.spacer-star hr {
+  width: 100px;
+  height: 4px;
+  border: 0;
+  border-radius: 2px;
+}
+.spacer-star span {
+  display: inline-block;
+}
+.jumbotron .glyphicon, #about .glyphicon{
+  font-size: 40px;
+  padding:  0 20px;
+  color: white;
+}
+#portfolio .glyphicon, #contact .glyphicon{
+  font-size: 40px;
+  padding:  0 20px;
+}
 #portfolio{
-  margin-top: 50px;
-  height: 700px;
+  padding: 50px 0;
 }
 #portfolio img{
-  width: 100%;
+  width: 300px;
   border-radius: 10px;
-  margin:40px 40px 40px 0;
+  margin:30px;
 }
 #about{
   background-color: #19BC9C;
 }
 #contact{
   margin-top: 50px;
-  height: 500px;
+  height: 600px;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  font-size: 20px;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom: 1px solid #c8c8c8;
+  padding: 0;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #19BC9C;
+  border-color: #19BC9C;
+  padding: 20px;
+}
+footer{
+  padding-top: 50px;
+}
+footer h2{
+  font-size: 24px !important;
+}
+footer p{
+  font-size: 20px !important;
+}
+.main_footer .row-top{
+  height: 250px;
+  padding-top: 50px;
+}
+
+#copy{
+  height: 80px;
+  line-height: 70px;
+}
+#copy p{
+  font-size: 16px !important;
 }
