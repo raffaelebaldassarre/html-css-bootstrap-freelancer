@@ -93,6 +93,9 @@ nav a {
 #portfolio{
   padding: 50px 0;
 }
+#portfolio h2{
+  font-size: 48px !important;
+}
 #portfolio img{
   width: 300px;
   border-radius: 10px;
@@ -100,20 +103,33 @@ nav a {
 }
 #about{
   background-color: #19BC9C;
+  padding: 50px 0;
+}
+#about h2{
+  font-size: 48px !important;
+}
+#about p{
+  font-size: 20px !important;
 }
 #contact{
   margin-top: 50px;
   height: 600px;
 }
+#contact h2{
+  font-size: 48px !important;
+}
 .form-group input[type="text"],
 .form-group input[type="email"],
 .form-group textarea {
-  font-size: 20px;
   border: 0;
   box-shadow: none;
   border-radius: 0;
   border-bottom: 1px solid #c8c8c8;
   padding: 0;
+}
+label{
+  font-size: 22px !important;
+  color: #848B91;
 }
 .btn-primary {
   color: #fff;
@@ -129,9 +145,9 @@ footer h2{
 }
 footer p{
   font-size: 20px !important;
+  padding: 5px;
 }
 .main_footer .row-top{
-  height: 250px;
   padding-top: 50px;
 }
 
