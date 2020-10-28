@@ -13,7 +13,7 @@
 
     <header>
 
-      <nav class="navbar-fixed-top">
+      <nav class="navbar-fixed-top bg_grey">
         <div class="container">
           <div class="row">
             <div class="col-xs-6 col-md-4 header_logo">
@@ -64,38 +64,75 @@
       </div>
 
       <div id="about" class="container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-4 col-md-offset-4 text-center">
-            <h1>About</h1>
-            <hr>
-          </div>
-          <div class="col-md-offset-2 col-md-4">
-            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
-          </div>
-          <div class="col-md-4">
-            <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-4 col-md-offset-4 text-center">
+              <h1>About</h1>
+              <hr>
+            </div>
+            <div class="col-md-offset-2 col-md-4">
+              <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+            </div>
+            <div class="col-md-4">
+              <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+            </div>
           </div>
         </div>
       </div>
-      </div>
 
-      <div id="contact" class="container">
+      <div id="contact" class="container text-center">
+        <h2>contact me</h2>
         <div class="row">
-          <div class="col-xs-12 col-md-4 col-md-offset-4 text-center">
-            <h1>Contact me</h1>
-            <hr>
-          </div>
-          <div class="col-md-offset-2 col-md-4">
-            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
-          </div>
-          <div class="col-md-4">
-            <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+          <div class="col-lg-8 col-lg-offset-2 text-left">
+            <form>
+              <div class="form-group">
+                <label for="nameInput">Name</label>
+                <input type="text" class="form-control" id="nameInput">
+              </div>
+              <div class="form-group">
+                <label for="emailInput">Email address</label>
+                <input type="email" class="form-control" id="emailInput">
+              </div>
+              <div class="form-group">
+                <label for="numberInput">Phone Number</label>
+                <input type="text" class="form-control" id="numberInput">
+              </div>
+              <div class="form-group">
+                <label for="messageTextarea">Message</label>
+                <textarea class="form-control" id="messageTextarea" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
           </div>
         </div>
       </div>
 
     </main>
+
+    <footer class="main_footer white-text">
+      <div class="container-fluid bg_grey">
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <h3>location</h3>
+              <p>2215 John Daniel DriveClark, MO 65243</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <h2>around the web</h2>
+            </div>
+            <div class="col-lg-4 col-md-6  offset-md-3 col-sm-12">
+              <h2>about freelancer</h2>
+              <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <a href=""> Start Bootstrap . </a> </p>
+            </div>
+          </div>
+          <div class="row">
+    <div class="col-md-12 text-center">
+      <span>Copyright © Your Website 2020</span>
+    </div>
+  </div>
+        </div>
+      </div>
+    </footer>
 
   </body>
 </html>

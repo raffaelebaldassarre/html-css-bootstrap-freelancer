@@ -1,17 +1,25 @@
-.debug [class*="col-"] {
-  height: 200px;
-  background-color: pink;
-  border: 1px solid red;
+body {
+  padding-top: 100px;
 }
 
-
-body {
-  padding-top: 100px; }
+  /* UTILITY */
+  .bg_grey{
+    background-color: #2C3F51;
+  }
+  .text-center{
+    text-align:center;
+  }
+  .text-left{
+    text-align: left;
+  }
+  .white-text{
+    color: white;
+  }
+  /* /UTILITY */
 
 nav{
   height: 100px;
   line-height: 100px;
-  background-color: #2C3F51;
 }
 .header_logo a{
   text-transform: uppercase;
@@ -33,14 +41,11 @@ nav{
 }
 .jumbotroon{
   background-color: #19BC9C;
-  height: 650px;
+  height: 660px;
   padding-top: 100px;
 }
 .jumbotroon img{
   width: 250px;
-}
-.text-center{
-  text-align:center;
 }
 #portfolio{
   margin-top: 50px;
@@ -51,5 +56,5 @@ nav{
 }
 #contact{
   margin-top: 50px;
-  height: 300px;
+  height: 500px;
 }
